@@ -1,0 +1,37 @@
+body {
+    background-color: white;
+}
+
+:root{
+    --sidebar-logo-color: #ED6A41 !important;
+}
+
+.select2-container{
+    width: 450px !important;
+}
+
+.sidebar-wrapper .main-header #header-logo .logo-custom, .main-header #header-logo a{
+    color: #ED6A41 !important;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Calibri, serif;
+}
+
+.action-saveAndContinue{
+    background: #28a745 !important;
+    color: white;
+}
+
+.action-saveAndContinue:hover{
+    background: #218838 !important;
+    color: white !important;
+}
+
+.form-group .col-form-label.required:after, .form-group label.required:after{
+    background: inherit !important;
+}
+
+.form-group .col-form-label.required:after, .form-group label.required:after{
+    content: "*" !important;
+    font-weight: bold !important;
+}
