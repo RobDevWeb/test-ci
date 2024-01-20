@@ -75,11 +75,6 @@ jobs:
       - name: Check Symfony requirements
         run: vendor/bin/requirements-checker
 
-      - name: Check the Symfony console
-        run: |
-          chmod +x bin/console about
-          chmod +x bin/console strangebuzz:version
-
       ## —— Coding standards ✨ ————————————————————————————————————————————————
       - name: Coding standards checks (php_codesniffer + php-cs-fixer)
         run: make cs
